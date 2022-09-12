@@ -6,7 +6,7 @@ class Footer extends React.Component {
     this.state = { counter: 3 };
   }
   render() {
-    return <h2>Value {this.counter}</h2>;
+    return <h2>Value {this.state.counter}</h2>;
   }
 }
 
